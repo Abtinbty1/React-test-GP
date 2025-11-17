@@ -8,27 +8,27 @@
   background-color: #000000ff; /* Solid black background */
 }
 
-/* Styles for the navigation list (the <ul>) */
+
 .navlist {
-  list-style-type: none; /* Removes the bullets */
+  list-style-type: none; 
   margin: 0;
   padding: 0;
   overflow: hidden;
-  display: flex; /* Lines up the list items horizontally */
+  display: flex; 
 }
 
-/* Styles for the navigation links (the <a> tags) */
+
 .navlink {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none; /* Removes the underline */
+  text-decoration: none; 
 }
 
-/* --- Good Bonus Feature --- */
-/* Adds a hover effect when you mouse over the links */
+
 .navlink:hover {
-  background-color: #333; /* Dark grey background on hover */
-  color: #a9a9a9;         /* Light grey text on hover */
+  background-color: #333; 
+  color: #a9a9a9;  
+  cursor: pointer;      
 }
