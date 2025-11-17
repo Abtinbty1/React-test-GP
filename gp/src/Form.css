@@ -1,0 +1,19 @@
+.Submit{
+    color : rgb(255, 255, 255);
+    background-color: #b74a4aff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.Submit:hover {
+    background-color: #b74a4aff;
+    border-color: azure;
+    color: #000000ff;
+    cursor: pointer;
+}

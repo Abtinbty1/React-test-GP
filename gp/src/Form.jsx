@@ -1,5 +1,5 @@
 
-
+import './Footer.css'
 export default function Form() {
     return (
         <form className="Form" onSubmit={handleSubmit}>
@@ -19,12 +19,7 @@ export default function Form() {
             <br />
             <input name ='name' type='text' />  
             <br />
-            <button 
-            style={{
-                color : "#b74a4aff",
-                backgroundColor: "#000000ff",
-            }}
-            type='submit'>Submit</button>
+            <button className="Submit" type='submit'>Submit</button>
         </form>
     );
 
