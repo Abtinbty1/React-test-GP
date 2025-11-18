@@ -6,12 +6,8 @@ export default function Header() {
   return (
     /* 2. Use simple string classNames */
     <header className="header">
-      <ul className="navlist">
-        <li><a className="navlink" href="/Home">Home</a></li>
-        <li><a className="navlink" href="/Register">Register</a></li>
-        <li><a className="navlink" href="/Login">Login</a></li>
-        <li><a className="navlink" href="/Help">Help</a></li>
-      </ul>
+      <h1 className="title">Welcome to Our Site</h1>
+    
     </header>
   );
 }

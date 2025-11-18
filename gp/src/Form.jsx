@@ -3,7 +3,7 @@ import './Footer.css'
 export default function Form() {
     return (
         <form className="Form" onSubmit={handleSubmit}>
-            <label
+            <label className='la'
             style={{
                 color: "#ff0000ff",
             }}
@@ -11,7 +11,7 @@ export default function Form() {
             <br />
             <input name ='email' type='email' />
             <br />
-            <label
+            <label className='la'
             style={{
                 color: "#ff0000ff",
             }}

@@ -3,32 +3,10 @@
 /* Styles for the main header bar */
 .header {
   display: flex;
-  justify-content: center;
+  
   padding: 1rem;
-  background-color: #000000ff; /* Solid black background */
+  left: auto;
+  top: auto;
+ 
 }
 
-
-.navlist {
-  list-style-type: none; 
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: flex; 
-}
-
-
-.navlink {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none; 
-}
-
-
-.navlink:hover {
-  background-color: #333; 
-  color: #a9a9a9;  
-  cursor: pointer;      
-}
