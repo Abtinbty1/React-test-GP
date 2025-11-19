@@ -1,26 +1,19 @@
 
-import './Footer.css'
+import './Form.css'
 export default function Form() {
     return (
+        <div className="Container">
         <form className="Form" onSubmit={handleSubmit}>
-            <label className='la'
-            style={{
-                color: "#ff0000ff",
-            }}
-            >Email</label>
+            <label className='la'>Email</label>
             <br />
             <input name ='email' type='email' />
-            <br />
-            <label className='la'
-            style={{
-                color: "#ff0000ff",
-            }}
-            >Name</label>
+            <label className='la'>Name</label>
             <br />
             <input name ='name' type='text' />  
             <br />
             <button className="Submit" type='submit'>Submit</button>
         </form>
+        </div>
     );
 
     function handleSubmit(event) {
@@ -38,4 +31,7 @@ export default function Form() {
 function onSubmit(email, name){
     
     alert(`submitted :${name}- ${email}`);
+    email.value = '';
+    name.value = '';
+    form
 }}
