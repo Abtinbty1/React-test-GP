@@ -6,10 +6,10 @@ export default function Form() {
         <form className="Form" onSubmit={handleSubmit}>
             <label className='la'>Email</label>
             <br />
-            <input name ='email' type='email' />
+            <input  className= 'II'name ='email' type='email' />
             <label className='la'>Name</label>
             <br />
-            <input name ='name' type='text' />  
+            <input className= 'II'name ='name' type='text' />  
             <br />
             <button className="Submit" type='submit'>Submit</button>
         </form>

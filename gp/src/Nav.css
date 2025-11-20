@@ -26,7 +26,7 @@
 }
 
 .navlink:hover {
-  background-color: #333; 
-  color: #a9a9a9;  
+  background-color:rgb(33, 144, 53);
+  color: black  ;
   cursor: pointer;      
 }
