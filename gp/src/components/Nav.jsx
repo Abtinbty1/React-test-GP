@@ -1,4 +1,4 @@
-import './Nav.css';
+import '../Style/Nav.css';
 export default function Nav() {
     return (
         <nav className="nav">
@@ -6,7 +6,7 @@ export default function Nav() {
                 <li><a className="navlink" href="/Home">Home</a></li>
                 <li><a className="navlink" href="/Register">Register</a></li>
                 <li><a className="navlink" href="/Login">Login</a></li>
-                <li><a className="navlink" href="/Help">Help</a></li>
+                <li><a className="navlink" href="/AboutUs">About Us</a></li>
             </ul>
         </nav>
     );

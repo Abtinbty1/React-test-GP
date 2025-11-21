@@ -1,5 +1,5 @@
 
-import './Form.css'
+import '../Style/Form.css';
 export default function Form() {
     return (
         <div className="Container">
